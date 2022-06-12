@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+
+body{
+    background-image: url('clouds_cover.jpg');
+    background-size: 1760px;
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 50%;
+    position: absolute;
+    top: 58%;
+}
+
+.form input[type="text"] {
+    width: 100%;
+    padding: 20px;
+    padding-right: 60px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.3);
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    outline: none;
+}
+
+::-webkit-input-placeholder{
+    color: white;
+}
+
+::-moz-placeholder{
+    color: white;
+}
+
+.fa-temperature-half{
+    cursor: pointer;
+    position: absolute;
+    top: 43%;
+    transform: translateY(-50%);
+    right: 25px;
+    color: black;
+    size: 2000px;
+}
+
+.city{
+    font-size: 25px;
+    font-family:sans-serif;
+    font-size: xx-large;
+    font-weight: 600;
+    padding: 2px;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: -2%;
+}
+
+.cent{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tempSky{
+    font-size: larger;
+    font-weight: 500;
+}

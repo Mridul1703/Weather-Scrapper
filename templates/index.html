@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Scrapper</title>
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/template.css') }}">
+        <script src="https://kit.fontawesome.com/814358c0a3.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <form method="POST" action="/weather">
+            <div class="wrapper">
+                <div class="form"> 
+                    <input type="text" name="city" placeholder="Search for a City">
+                    <button onclick="main.py"><i class="fa-solid fa-temperature-half"></i></button>
+                </div>
+        </div>
+        </form>
+    </body>
+    </html>
